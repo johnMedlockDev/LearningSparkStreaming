@@ -80,6 +80,7 @@ public class ViewReportsSimulator {
             Integer timestamp = new Integer(input[0]);
             Integer courseKey = new Integer(input[1]);
 
+
             // Wait until this event is due...
             while (milliseconds < timestamp) {
                 milliseconds++;
